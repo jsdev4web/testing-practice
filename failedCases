@@ -1,0 +1,28 @@
+//failed test cases
+
+ /* for (let i = 0; i < newWord.length; i++){
+            for (let j = 0; j < trackCasing.length; j++){
+                if (i === trackCasing[j]){
+                    answer += newWord[i].toUpperCase()
+                } 
+                else(
+                    answer += newWord[i]
+                )
+            }
+        }
+        answer = [...new Set(answer)].join("")*/
+
+
+    /*let counter = trackCasing.length
+        //string.replace(searchValue, replaceValue);
+        while(counter){
+        for (let i = 0; i < trackCasing.length; i++){
+          console.log(trackCasing[i])
+            
+        
+        let a = newWord.replace(newWord.charAt(trackCasing[i]), newWord.charAt(trackCasing[i]).toUpperCase())
+    counter--    
+    console.log(a)
+        }
+        
+    }*/

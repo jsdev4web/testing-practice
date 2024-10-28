@@ -7,5 +7,8 @@
   },
   "scripts": {
     "test": "jest"
+  },
+  "dependencies": {
+    "preserve-case-replace": "^1.0.2"
   }
 }

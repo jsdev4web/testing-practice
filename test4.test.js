@@ -1,5 +1,7 @@
-let myOject = require('./test4.js');
+let ceasarCipher = require('./test4.js');
 
 test('use ciper on some text', () => {
-    expect(myOject.ceasarCiper("word")).toBe("adpfonj")
+    expect(ceasarCipher("X?y!Z", 3)).toBe("A?b!C")
 });
+
+
